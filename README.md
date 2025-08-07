@@ -24,7 +24,7 @@ windwalker-flags/
 ├── ui/               # Next.js admin portal
 ├── packages/
 │   ├── dotnet-core/  # .NET 8+ feature flag integration
-│   └── dotnet-fw/    # .NET Framework NuGet package
+│   └── dotnet-fx/    # .NET Framework NuGet package
 ├── infrastructure/   # IaC templates (Serverless Framework or SAM)
 └── docs/             # Diagrams and setup guides
 ```
