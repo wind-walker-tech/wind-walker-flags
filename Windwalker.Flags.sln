@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "api", "api", "{B693D082-8B15-4F5E-829D-7203B2A0B859}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "packages", "packages", "{F92D3B64-236E-4B94-A81F-C4946BA5E56E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dotnet-core", "dotnet-core", "{23B08C54-F406-4D87-B2A0-5010ECB962B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Windwalker.Flags.Core", "packages\dotnet-core\Windwalker.Flags.Core\Windwalker.Flags.Core.csproj", "{125CDDE9-B4A9-449E-88D7-6C9D5BDDB97E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dotnet-fx", "dotnet-fx", "{2473E25B-169F-4E4F-8E13-EACEB203A021}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Windwalker.Flags.NetFx", "packages\dotnet-fx\Windwalker.Flags.NetFx\Windwalker.Flags.NetFx.csproj", "{A58B8C33-BBC3-439F-BFAA-EE6A6ABCEB2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{125CDDE9-B4A9-449E-88D7-6C9D5BDDB97E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{125CDDE9-B4A9-449E-88D7-6C9D5BDDB97E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{125CDDE9-B4A9-449E-88D7-6C9D5BDDB97E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{125CDDE9-B4A9-449E-88D7-6C9D5BDDB97E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A58B8C33-BBC3-439F-BFAA-EE6A6ABCEB2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A58B8C33-BBC3-439F-BFAA-EE6A6ABCEB2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A58B8C33-BBC3-439F-BFAA-EE6A6ABCEB2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A58B8C33-BBC3-439F-BFAA-EE6A6ABCEB2B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{23B08C54-F406-4D87-B2A0-5010ECB962B3} = {F92D3B64-236E-4B94-A81F-C4946BA5E56E}
+		{125CDDE9-B4A9-449E-88D7-6C9D5BDDB97E} = {23B08C54-F406-4D87-B2A0-5010ECB962B3}
+		{2473E25B-169F-4E4F-8E13-EACEB203A021} = {F92D3B64-236E-4B94-A81F-C4946BA5E56E}
+		{A58B8C33-BBC3-439F-BFAA-EE6A6ABCEB2B} = {2473E25B-169F-4E4F-8E13-EACEB203A021}
+	EndGlobalSection
+EndGlobal
